@@ -7,10 +7,10 @@ a collection of Python scripts to help out with routine tasks
 - returns a pandas DataFrame object of all files modified after a given date.
 - the DataFrame can be saved as an Excel file if desired
 - To use:
--- cd into directory which you would like to search
--- in command line:
+1. cd into directory which you would like to search
+2. in command line:
 [ python mod_files_new.py "Oct 31 2019" "C:\Users\John\directory_to_search" 1 ]
--- strings must be surrounded by double quotes
--- optional argument 1 or 0
---- 1 will save returned DataFrame as an Excel (.xlsx) file in the directory searched
---- 0 or nothing will not save as an Excel file
+3. strings must be surrounded by double quotes
+4. optional argument 1 or 0
+4a. 1 will save returned DataFrame as an Excel (.xlsx) file in the directory searched
+4b. 0 or nothing will not save as an Excel file
