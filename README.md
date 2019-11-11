@@ -12,5 +12,5 @@ a collection of Python scripts to help out with routine tasks
 [ python mod_files_new.py "Oct 31 2019" "C:\Users\John\directory_to_search" 1 ]
 3. strings must be surrounded by double quotes
 4. optional argument 1 or 0
-4a. 1 will save returned DataFrame as an Excel (.xlsx) file in the directory searched
-4b. 0 or nothing will not save as an Excel file
+5. 1 will save returned DataFrame as an Excel (.xlsx) file in the directory searched
+6. 0 or nothing will not save as an Excel file
