@@ -151,10 +151,11 @@ def main(date_, path_, save_as_excel_bool):
     if save_as_excel_bool == 1:
         
         save_as_excel_file(path_, df)
+        print('DataFrame was saved at this location:', str(path_))
         
     else:
         
-        print('DataFrame was not saved')
+        print('DataFrame was not saved at this time')
         
 if __name__ == '__main__':
 
