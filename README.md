@@ -1,5 +1,4 @@
-# practiPy
-a collection of Python scripts to help out with routine tasks
+# return_all_modified_files_after_date
 
 ## return_all_modified_files_in_dir_after_date.py
 - purpose: to determine which files in a directory have been modified after a given date
